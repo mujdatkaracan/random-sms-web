@@ -9,9 +9,6 @@ class App extends Component {
   render() {
     return (
       <Layout>
-        <Header style={{ background: '#000', padding: 0 }}>
-          GUDCK LUCK
-        </Header>
         <Content>
           <Routes />
         </Content>

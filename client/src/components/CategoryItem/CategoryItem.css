@@ -1,0 +1,12 @@
+.rc-item{
+    padding: 10px;
+    margin: 10px;
+    background-color: bisque;
+    position: relative;
+    display: inline-block;
+}
+
+.rc-item:hover{
+    background-color: azure;
+    border:1px solid aliceblue;
+}
