@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import { Button } from 'antd';
+import { Layout } from 'antd';
 import './App.css';
+import { Routes } from './routes/route';
+
+const {Header, Content} = Layout;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Button type="primary">Button</Button>
-      </div>
+      <Layout>
+        <Header style={{ background: '#000', padding: 0 }}>
+          GUDCK LUCK
+        </Header>
+        <Content>
+          <Routes />
+        </Content>
+      </Layout>
     );
   }
 }
